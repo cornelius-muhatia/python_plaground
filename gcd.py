@@ -26,6 +26,7 @@ class GcdTests(unittest.TestCase):
         self.assertEqual(8, gcd(24, 8))
         self.assertEqual(11, gcd(77, 22))
         self.assertEqual(1, gcd(17, 13))
+        self.assertEqual(3, gcd(3768, 1701))
 
 
 unittest.main()
