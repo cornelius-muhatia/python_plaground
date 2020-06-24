@@ -19,6 +19,12 @@ def is_palindrome(no):
 
 
 def get_longest_palindrome(str):
+    """
+    Gets longest palindrome from a give string
+
+    :param str: source string
+    :return: longest palindrome string
+    """
     n = len(str)
     start_idx = 0
     end_idx = 0
