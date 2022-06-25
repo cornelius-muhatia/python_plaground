@@ -13,8 +13,8 @@
 def lcs(str1, str2):
     """
     Given two strings A and B, find a longest (not necessarily contiguous) subsequence of A that is also a
-    subsequence of B. For more details see: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020
-    /resources/mit6_006s20_lec16/
+    subsequence of B. For more details see:
+    https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/mit6_006s20_lec16/
     """
     a, b = len(str1), len(str2)
     x = [[0] * (b + 1) for _ in range(a + 1)]
